@@ -93,11 +93,13 @@ Models were evaluated using:
 
 <img width="539" height="455" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/9597dd26-d7c9-414f-a7f2-7f8fc6c16221" />
 
+<img width="772" height="435" alt="eature Importance Chart" src="https://github.com/user-attachments/assets/8ceeb39c-6c0b-474e-b350-daf452af3e43" />
+
 ## Business Insights
 
 * Customers with higher monthly charges are more likely to churn
-* Long-term contracts significantly reduce churn probability
-* Early identification of high-risk customers enables targeted retention strategies
+* Long-term contracts reduce churn probability
+* New customers (low tenure) have higher churn risk
 
 ---
 
