@@ -82,6 +82,16 @@ Models were evaluated using:
   * Customer tenure
 
 ---
+## Model Performance
+
+* Random Forest Accuracy: 0.78
+* Logistic Regression Accuracy: 0.79
+
+---
+
+## Visualization
+
+<img width="539" height="455" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/9597dd26-d7c9-414f-a7f2-7f8fc6c16221" />
 
 ## Business Insights
 
