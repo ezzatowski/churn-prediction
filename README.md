@@ -1,6 +1,6 @@
-# 📊 Customer Churn Prediction
+# Customer Churn Prediction
 
-## 🚀 Overview
+## Overview
 
 This project focuses on building a machine learning model to predict customer churn — whether a customer is likely to leave a service. Churn prediction is a critical problem in industries like telecommunications, where retaining customers is more cost-effective than acquiring new ones.
 
@@ -8,7 +8,7 @@ The goal is to analyze customer data, identify key factors influencing churn, an
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 * Perform data cleaning and preprocessing
 * Explore and understand customer behavior
@@ -18,7 +18,7 @@ The goal is to analyze customer data, identify key factors influencing churn, an
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * **Programming Language:** Python
 * **Libraries:** Pandas, NumPy, Scikit-learn
@@ -27,14 +27,14 @@ The goal is to analyze customer data, identify key factors influencing churn, an
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 * Telco Customer Churn Dataset (Kaggle)
 * Contains customer demographics, account information, and service usage
 
 ---
 
-## ⚙️ Project Workflow
+## Project Workflow
 
 ### 1. Data Preprocessing
 
@@ -71,7 +71,7 @@ Models were evaluated using:
 
 ---
 
-## 📈 Results
+## Results
 
 * Random Forest achieved strong performance (~80% accuracy)
 * Logistic Regression provided a solid baseline for comparison
@@ -83,7 +83,7 @@ Models were evaluated using:
 
 ---
 
-## 💡 Business Insights
+## Business Insights
 
 * Customers with higher monthly charges are more likely to churn
 * Long-term contracts significantly reduce churn probability
@@ -91,7 +91,7 @@ Models were evaluated using:
 
 ---
 
-## 🔧 Future Improvements
+## Future Improvements
 
 * Hyperparameter tuning for better performance
 * Try advanced models (e.g., XGBoost, Gradient Boosting)
@@ -100,7 +100,7 @@ Models were evaluated using:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 churn-prediction/
@@ -111,7 +111,7 @@ churn-prediction/
 
 ---
 
-## 🧠 Key Learnings
+## Key Learnings
 
 * End-to-end machine learning workflow
 * Data preprocessing and feature engineering
@@ -120,7 +120,7 @@ churn-prediction/
 
 ---
 
-## 👤 Author
+## Author
 
 **Mahmoud Ismail**
 📍 Warsaw, Poland
