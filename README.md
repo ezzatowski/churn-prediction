@@ -116,9 +116,12 @@ Models were evaluated using:
 
 ```
 churn-prediction/
-│── churn_prediction.ipynb
-│── churn.csv
-│── README.md
+ ├── notebook/
+ │    └── churn_prediction.ipynb
+ ├── data/
+ │    └── churn.csv
+ ├── images/
+ ├── README.md
 ```
 
 ---
