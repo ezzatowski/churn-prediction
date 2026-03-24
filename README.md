@@ -82,11 +82,15 @@ Models were evaluated using:
   * Customer tenure
 
 ---
+
 ## Model Performance
 
-* Random Forest Accuracy: 0.78
-* Logistic Regression Accuracy: 0.79
-
+| Model               | Accuracy | Precision| Recall | F1 Score|  ROC-AUC |
+|-------------------- |----------|----------|--------|----------|---------|
+| Logistic Regression | 0.806955 | 0.658385 |0.566845| 0.609195 | 0.841585|
+| Random Forest       | 0.786373 | 0.623729 |0.491979| 0.550075 | 0.825081|
+| XGBoost             | 0.798439 | 0.649007 |0.524064| 0.579882 | 0.840567|
+| LightGBM            | 0.801278 | 0.649682 |0.545455| 0.593023 | 0.834916|
 ---
 
 ## Visualization
@@ -94,6 +98,17 @@ Models were evaluated using:
 <img width="539" height="455" alt="Confusion Matrix" src="https://github.com/user-attachments/assets/9597dd26-d7c9-414f-a7f2-7f8fc6c16221" />
 
 <img width="772" height="435" alt="eature Importance Chart" src="https://github.com/user-attachments/assets/8ceeb39c-6c0b-474e-b350-daf452af3e43" />
+
+---
+
+## ROC Curve Comparison
+
+Models were evaluated using ROC-AUC to compare their ability to distinguish between churners and non-churners.
+XGBoost achieved the best overall performance.
+<img width="567" height="455" alt="output" src="https://github.com/user-attachments/assets/4c3585d0-fe53-4f79-9855-13bcce84a182" />
+
+
+---
 
 ## Business Insights
 
@@ -103,12 +118,12 @@ Models were evaluated using:
 
 ---
 
-## Future Improvements
+## Advanced Modeling Improvements
 
-* Hyperparameter tuning for better performance
-* Try advanced models (e.g., XGBoost, Gradient Boosting)
-* Deploy the model as a web application
-* Integrate real-time prediction pipeline
+* Implemented hyperparameter tuning using GridSearchCV
+* Added advanced models (XGBoost) and compared performance
+* Optimized classification threshold to improve churn detection (recall)
+* Evaluated models using ROC-AUC and precision-recall trade-offs
 
 ---
 
