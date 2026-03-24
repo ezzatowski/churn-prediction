@@ -112,9 +112,12 @@ XGBoost achieved the best overall performance.
 
 ## Business Insights
 
-* Customers with higher monthly charges are more likely to churn
-* Long-term contracts reduce churn probability
-* New customers (low tenure) have higher churn risk
+## Business Insights
+
+- Customers on month-to-month contracts have significantly higher churn risk
+- High monthly charges combined with low tenure strongly increase churn probability
+- Long-term contracts act as a strong retention mechanism
+- Early-stage customers (low tenure) should be targeted with retention campaigns
 
 ---
 
