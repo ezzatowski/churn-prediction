@@ -73,8 +73,7 @@ Models were evaluated using:
 
 ## Results
 
-* Random Forest achieved strong performance (~80% accuracy)
-* Logistic Regression provided a solid baseline for comparison
+* Logistic Regression achieved the highest accuracy (~80% accuracy)
 * Key factors influencing churn included:
 
   * Contract type
@@ -112,8 +111,6 @@ XGBoost achieved the best overall performance.
 
 ## Business Insights
 
-## Business Insights
-
 - Customers on month-to-month contracts have significantly higher churn risk
 - High monthly charges combined with low tenure strongly increase churn probability
 - Long-term contracts act as a strong retention mechanism
@@ -135,7 +132,7 @@ XGBoost achieved the best overall performance.
 ```
 churn-prediction/
  ├── notebook/
- │    └── churn_prediction.ipynb
+ │    └── Telco Customer Notebook.ipynb
  ├── data/
  │    └── churn.csv
  ├── images/
